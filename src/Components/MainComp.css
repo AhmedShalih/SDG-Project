@@ -1,0 +1,44 @@
+/* Add your global styles here if needed */
+
+.navbar {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8BC34A; /* Green shed color */
+    position: sticky;
+    top: 0;
+    z-index: 2000;
+  }
+  
+  .logo img {
+    height: 80px;
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: white;
+    background-color: rgb(34, 75, 34);
+    padding: 5px;
+  }
+  /* MainComponent.css */
+
+.image-link:hover img {
+    /* Add your hover styles for the image here */
+    opacity: 0.8; /* Example: reduce opacity on hover */
+  }
+  
+  /* Additional styles for the h1 elements if needed */
+  
+  
